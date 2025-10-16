@@ -1,9 +1,11 @@
 package calculator
 
+import calculator.io.InputView
+
 fun main() {
     try {
         // 1. Console로부터 문자열 입력 받음
-        val input: String = TODO()
+        val input: String = InputView.readNonEmptyLine()
 
         // 2. 입력된 문자열에서 커스텀 구분자 찾음
         val customDelimiters: Array<Char> = TODO()
