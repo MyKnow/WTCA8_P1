@@ -1,6 +1,7 @@
 package calculator
 
 import calculator.io.InputView
+import calculator.domain.Calculator
 
 fun main() {
     try {
@@ -8,13 +9,13 @@ fun main() {
         val input: String = InputView.readNonEmptyLine()
 
         // 2. 입력된 문자열에서 커스텀 구분자 찾음
-        val customDelimiters: Array<Char> = TODO()
+        val customDelimiters: Array<Char> = Calculator.extractCustomDelimiters(input)
 
         // 3. 기본 구분자 + 커스텀 구분자로 숫자 구분함
-        val parsedNumbers: Array<Int> = TODO()
+//        val parsedNumbers: Array<Int> = TODO()
 
         // 4. 구분된 숫자들을 모두 더하여 출력함
-        val result: String = TODO()
+//        val result: String = TODO()
     } catch (e: IllegalArgumentException) {
         println(e)
     }
