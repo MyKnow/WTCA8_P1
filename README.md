@@ -1,5 +1,5 @@
 # Notion
-- [노션에서 보기](https://www.notion.so/myknow/1-28c406c3c48881128b4def30ca65c93c?source=copy_link)
+- [노션에서 보기](https://myknow.notion.site/1-28c406c3c48881128b4def30ca65c93c?source=copy_link)
 
 # 과제 요약
 
