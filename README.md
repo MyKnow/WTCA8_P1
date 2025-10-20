@@ -1,3 +1,6 @@
+# Notion
+- [노션에서 보기](https://www.notion.so/myknow/1-28c406c3c48881128b4def30ca65c93c?source=copy_link)
+
 # 과제 요약
 
 - 입력한 문자열에서 숫자를 추출하여 더하는 계산기 구현
